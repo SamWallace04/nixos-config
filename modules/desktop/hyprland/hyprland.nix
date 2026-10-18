@@ -33,7 +33,6 @@ in
         rose-pine-hyprcursor # `hyprctl setcursor rose-pine-hyprcursor 24`
         cliphist # `wl-paste --watch cliphist store`
         wl-clipboard
-        thunar # SUPER+E
         brightnessctl
         playerctl
       ];

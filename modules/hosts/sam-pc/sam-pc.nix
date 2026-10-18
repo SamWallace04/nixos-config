@@ -20,8 +20,11 @@ in
       nixos.audio
       nixos.fonts
       nixos.amd-gpu
+      nixos.general
+      nixos.thunar
       nixos.gaming
       nixos.tailscale
+      nixos.nas
       {
         networking.hostName = "sam-pc";
         # Match the value in the /etc/nixos/configuration.nix the installer generated.
@@ -68,7 +71,9 @@ in
             gaming
             browser
             general
+            thunar
             tailscale
+            ai
           ];
           home.stateVersion = "26.05";
         };

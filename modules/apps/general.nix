@@ -1,9 +1,14 @@
 {
+  flake.modules.nixos.general = {
+    programs.appimage = {
+      enable = true;   
+      binfmt = true;
+    };
+  };
   flake.modules.homeManager.general =
     { pkgs, ... }:
     {
       home.packages = with pkgs; [
-        thunar
         peazip
         discord
         proton-vpn
