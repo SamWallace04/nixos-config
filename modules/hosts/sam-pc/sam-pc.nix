@@ -12,6 +12,7 @@ in
 
       nixos.nix-settings
       nixos.base
+      nixos.lanzaboote
       nixos.user
       nixos.zsh
       nixos.hyprland
