@@ -75,6 +75,7 @@ in
             thunar
             tailscale
             ai
+            remmina
           ];
           home.stateVersion = "26.05";
         };

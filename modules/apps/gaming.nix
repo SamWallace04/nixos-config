@@ -12,7 +12,7 @@
     {
       home.packages = with pkgs; [
         lutris
-        wineWowPackages.staging 
+        wineWow64Packages.staging
         winetricks
       ];
     };
