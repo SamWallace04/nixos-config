@@ -76,6 +76,7 @@ in
             tailscale
             ai
             remmina
+            game-dev
           ];
           home.stateVersion = "26.05";
         };
