@@ -26,6 +26,7 @@ in
       nixos.gaming
       nixos.tailscale
       nixos.nas
+      nixos.docker
       {
         networking.hostName = "sam-pc";
         # Match the value in the /etc/nixos/configuration.nix the installer generated.
