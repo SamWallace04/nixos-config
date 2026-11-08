@@ -27,6 +27,7 @@ in
       nixos.tailscale
       nixos.nas
       nixos.docker
+      nixos.qbittorrent
       {
         networking.hostName = "sam-pc";
         # Match the value in the /etc/nixos/configuration.nix the installer generated.
@@ -78,6 +79,8 @@ in
             ai
             remmina
             game-dev
+            qbittorrent
+            nnn
           ];
           home.stateVersion = "26.05";
         };
